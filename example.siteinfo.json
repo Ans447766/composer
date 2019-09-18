@@ -1,0 +1,52 @@
+{
+    "/":{
+        "session":{
+            "status":"no",
+            "src":[
+
+            ]
+        },
+        "method":"GET",
+        "base":"/",
+        "madv":"",
+        "pgno":"",
+        "foot":"",
+        "title":"HOME PAGE",
+        "view":"/views/brochure/homepage/home.php",
+        "nav":"",
+        "url":"",
+        "js":[
+            "stylesAndJs/js/basic.js"
+        ],
+        "subsJs":{
+        },
+        "css":[
+            "stylesAndJs/css/basic.css"
+        ]
+    },
+    "/accountant/godown":{
+        "session":{
+            "status":"yes",
+            "src":[
+                
+            ]
+        },
+        "method":"GET",
+        "base":"/views/accountant/godown/",
+        "madv":"",
+        "pgno":"",
+        "foot":"",
+        "title":"Forms for inputting data",
+        "view":"/views/accountant/godown/forms/forms.php",
+        "nav":"yes",
+        "url":"",
+        "js":[
+            "../stylesAndJs/js/basic.js"
+        ],
+        "subsJs":{
+        },
+        "css":[
+            "../stylesAndJs/css/basic.css"
+        ]
+    }
+}

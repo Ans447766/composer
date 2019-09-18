@@ -1,0 +1,39 @@
+RewriteEngine On
+RewriteBase /MyWorks/ERPv1/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php [QSA,L]
+Options -Indexes
+IndexIgnore *
+<Files autoload.php>
+Order allow,deny
+Deny from all
+</Files>
+<Files env.php>
+Order allow,deny
+Deny from all
+</Files>
+<Files router.php>
+Order allow,deny
+Deny from all
+</Files>
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+<Files .gitignore>
+Order allow,deny
+Deny from all
+</Files>
+<Files gaurd.php>
+Order allow,deny
+Deny from all
+</Files>
+<Files gaurd.html>
+Order allow,deny
+Deny from all
+</Files>
+<Files page.php>
+Order allow,deny
+Deny from all
+</Files>
